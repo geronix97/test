@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+        <meta charset="uf-8"/>
+        <title>JQuery-Esdeveniments</title>
+        
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/01-ajax.js" charset="utf-8"> </script> 
+        <style>
+            #dades{
+                border: 2px solid green;
+                width: 250px;
+                height: 250px;
+                overflow: scroll;
+            }
+        
+        </style>
+       
+       
+    </head>
+
+    <body>
+
+        <h1> AJAX </h1>
+
+        <div id="dades">
+
+        </div>
+
+        <br/><br/>
+        <hr>
+
+
+        <form action="https://reqres.in/api/users" method="POST" id="formulari">
+            Nom:<input type="text" name="nom"/>
+            <br/><br/>
+            Web:<input type="url" name="web"/>
+            <br/><br/>
+            <input type="submit" value="Registrar"/>
+        </form>
+          
+    </body>
+</html>
